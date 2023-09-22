@@ -116,6 +116,8 @@ After running the frontend and backend you need to go to
 http://localhost:3000/
 ```
 
+
+
 ### Local Development (Not Recommended)
 
 You need to run the frontend and backend seperately.
