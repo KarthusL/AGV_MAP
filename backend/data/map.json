@@ -1,0 +1,246 @@
+{
+    "map": {
+      "maxNeighborDistance": 1500,
+      "nodes": [
+        { "x": 1000, "y": 1000, "code": 10001000, "directions": ["North"] },
+        { "x": 1000, "y": 1900, "code": 10001010, "directions": ["North"] },
+        {
+          "x": 1000,
+          "y": 2700,
+          "code": 10001020,
+          "directions": ["East", "North"]
+        },
+        { "x": 1000, "y": 3405, "code": 10001030, "directions": ["North"] },
+        {
+          "x": 1000,
+          "y": 4110,
+          "code": 10001040,
+          "directions": ["East", "North"]
+        },
+        { "x": 1000, "y": 4910, "code": 10001050, "directions": ["North"] },
+        {
+          "x": 1000,
+          "y": 5710,
+          "code": 10001060,
+          "directions": ["East", "North"]
+        },
+        {
+          "x": 1000,
+          "y": 6510,
+          "code": 10001070,
+          "directions": ["East"],
+          "name": "CHUTE",
+          "chute": { "direction": "North" }
+        },
+        { "x": 1800, "y": 1000, "code": 10201000, "directions": ["West"] },
+        { "x": 1800, "y": 5710, "code": 10201060, "directions": ["East"] },
+        {
+          "x": 1800,
+          "y": 6510,
+          "code": 10201070,
+          "directions": ["South"],
+          "name": "READY"
+        },
+        {
+          "x": 1879,
+          "y": 2700,
+          "code": 10301020,
+          "directions": ["West"],
+          "name": "F_SC1"
+        },
+        {
+          "x": 1879,
+          "y": 4110,
+          "code": 10301040,
+          "directions": ["West"],
+          "name": "K_SC1"
+        },
+        {
+          "x": 2489,
+          "y": 1000,
+          "code": 10501000,
+          "directions": ["North", "West"]
+        },
+        {
+          "x": 2489,
+          "y": 1900,
+          "code": 10501010,
+          "directions": ["South"],
+          "name": "F_DC1"
+        },
+        {
+          "x": 2489,
+          "y": 4910,
+          "code": 10501050,
+          "directions": ["North"],
+          "name": "K_DC1"
+        },
+        {
+          "x": 2489,
+          "y": 5710,
+          "code": 10501060,
+          "directions": ["South", "East"]
+        },
+        {
+          "x": 2600,
+          "y": 6510,
+          "code": 10501070,
+          "directions": ["South"],
+          "name": "CHRG1",
+          "charger": { "direction": "West" }
+        },
+        { "x": 2600, "y": 5710, "code": 0, "directions": ["East", "North"] },
+        {
+          "x": 3289,
+          "y": 1000,
+          "code": 10701000,
+          "directions": ["North", "West"]
+        },
+        {
+          "x": 3289,
+          "y": 1900,
+          "code": 10701010,
+          "directions": ["South"],
+          "name": "F_DC2"
+        },
+        {
+          "x": 3289,
+          "y": 4910,
+          "code": 10701050,
+          "directions": ["North"],
+          "name": "K_DC2"
+        },
+        {
+          "x": 3289,
+          "y": 5710,
+          "code": 10701060,
+          "directions": ["South", "East"]
+        },
+        {
+          "x": 3899,
+          "y": 2700,
+          "code": 10801020,
+          "directions": ["East"],
+          "name": "F_SC2"
+        },
+        {
+          "x": 3899,
+          "y": 4110,
+          "code": 10801040,
+          "directions": ["East"],
+          "name": "K_SC2"
+        },
+        { "x": 3978, "y": 1000, "code": 10901000, "directions": ["West"] },
+        {
+          "x": 3978,
+          "y": 5710,
+          "code": 10901060,
+          "directions": ["North", "East"]
+        },
+        { "x": 3978, "y": 6510, "code": 10901070, "directions": ["North"] },
+        { "x": 3978, "y": 7310, "code": 10901080, "directions": ["North"] },
+        { "x": 3978, "y": 8110, "code": 10901090, "directions": ["North"] },
+        { "x": 3978, "y": 8910, "code": 10901100, "directions": ["North"] },
+        { "x": 3978, "y": 9710, "code": 10901110, "directions": ["North"] },
+        {
+          "x": 3978,
+          "y": 10510,
+          "code": 10901120,
+          "directions": ["East"],
+          "name": "QUEUE"
+        },
+        { "x": 4778, "y": 1000, "code": 11001000, "directions": ["West"] },
+        { "x": 4778, "y": 1900, "code": 11001010, "directions": ["South"] },
+        {
+          "x": 4778,
+          "y": 2700,
+          "code": 11001020,
+          "directions": ["West", "South"]
+        },
+        { "x": 4778, "y": 3405, "code": 11001030, "directions": ["South"] },
+        {
+          "x": 4778,
+          "y": 4110,
+          "code": 11001040,
+          "directions": ["West", "South"]
+        },
+        { "x": 4778, "y": 4910, "code": 11001050, "directions": ["South"] },
+        { "x": 4778, "y": 5710, "code": 11001060, "directions": ["South"] },
+        {
+          "x": 4778,
+          "y": 6510,
+          "code": 11001070,
+          "directions": ["South"],
+          "name": "STAGING"
+        },
+        { "x": 4778, "y": 7310, "code": 11001080, "directions": ["South"] },
+        { "x": 4778, "y": 8110, "code": 11001090, "directions": ["South"] },
+        { "x": 4778, "y": 8910, "code": 11001100, "directions": ["South"] },
+        { "x": 4778, "y": 9710, "code": 11001110, "directions": ["South"] },
+        {
+          "x": 4778,
+          "y": 10510,
+          "code": 11001120,
+          "directions": ["North", "South"]
+        },
+        {
+          "x": 4778,
+          "y": 11310,
+          "code": 11001140,
+          "directions": ["North", "South"]
+        },
+        {
+          "x": 4778,
+          "y": 12110,
+          "code": 11001160,
+          "directions": ["North", "South"]
+        },
+        {
+          "x": 4778,
+          "y": 12910,
+          "code": 11001180,
+          "directions": ["South"],
+          "name": "Y_DC1"
+        },
+        {
+          "x": 2875,
+          "y": 10825,
+          "code": 10601130,
+          "directions": ["West"],
+          "name": "FRAME_BUFFER"
+        },
+        { "x": 2875, "y": 11975, "code": 10601150, "directions": ["South"] },
+        {
+          "x": 2875,
+          "y": 12525,
+          "code": 10601170,
+          "directions": ["South"],
+          "name": "Y_SC1"
+        },
+        { "x": 2070, "y": 10825, "code": 10401130, "directions": ["West"] },
+        { "x": 2070, "y": 12525, "code": 10401170, "directions": ["East"] },
+        {
+          "x": 1270,
+          "y": 10825,
+          "code": 10101130,
+          "directions": ["North"],
+          "name": "FRAME_HOSPITAL"
+        },
+        { "x": 1270, "y": 11975, "code": 10101150, "directions": ["North"] },
+        {
+          "x": 1270,
+          "y": 12525,
+          "code": 10101170,
+          "directions": ["North", "East"]
+        },
+        {
+          "x": 1270,
+          "y": 13875,
+          "code": 10101190,
+          "directions": ["South"],
+          "name": "CHRG2",
+          "charger": { "direction": "South" }
+        }
+      ]
+    }
+  }

@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.horizontal-layout {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 1;
+  height: 200px; 
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 180px;
+  width: 500px;
+}
+
+/* Styling for each vertical div */
+.vertical-div {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Styling for text and number fields */
+.text-field {
+  display: block;
+}
+
+.text-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.text-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Styling for checkbox fields */
+.checkbox-field {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.checkbox-field label {
+  display: block;
+}
+
+/* Styling for select fields */
+.select-field {
+  display: block;
+}
+
+.select-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.select-field select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button-container {
+  display: block;
+  display: flexbox;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+/* Styling for buttons */
+button {
+  width: 60%;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
