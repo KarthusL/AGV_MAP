@@ -1,4 +1,3 @@
-# Mujin Frontend Challenge
 
 ## Overview
 
